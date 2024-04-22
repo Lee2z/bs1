@@ -1,0 +1,104 @@
+
+
+.container {
+    .row {
+        .col-xl-4:first-child , .col-xl-4:nth-child(6) {
+            .box {
+                background-color:#6bc581;
+                border-radius:15px;
+
+                .box-header {
+                    a {
+                        background-color:white;
+                        color:#6bc581;
+                    }
+                }
+                .box-body {
+                    p {
+                        font-size:19px;
+                    }
+                }
+            }
+        }
+        .col-xl-4:last-child {
+            .box {
+                p {
+                    font-size:14px;
+                    a {
+                        color:#6bc581;
+                    }
+                }
+            }
+        }
+        .col-xl-4 {
+            .box {
+                background-color:white;
+                border-radius:15px;
+
+                .box-header {
+                    a {
+                        background-color:#6bc581;
+                        color:white;
+                    }
+                }
+                .box-body {
+                    p {
+                        font-size:19px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.container-fluid {
+    background-color: #303030;
+    .row {
+        .col-xl-12 {
+            .box {
+                p {
+                    font-size:14px;
+                }
+                p a {
+                    color:rgba(0, 255, 255, 0.695);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1200px) {
+    body {
+        background-image:url('img/1.jpg');
+        background-size:cover;
+        
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1190px) {
+    body {
+        background-image:url('img/1.jpg');
+        background-size:cover;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    body {
+        background-image:url('img/1.jpg');
+        background-size:cover;
+        
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:767px)  {
+    body {
+        background-color:gainsboro;
+        
+    }
+}
+
+@media screen and (max-width:576px) {
+    body {
+        background-color:gainsboro;
+    }
+}
